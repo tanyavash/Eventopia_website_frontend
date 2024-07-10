@@ -1,0 +1,146 @@
+.footer-container {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #007e3a;
+    color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer-logo img {
+    height: 50px;
+    width: auto;
+    margin-bottom: 10px;
+  }
+  
+  .footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .office {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .share-price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .share-price-details {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .share {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .share img {
+    height: 30px;
+    width: auto;
+  }
+  
+  .footer-middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #007e3a;
+    color: #fff;
+    padding: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 24px;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #004687;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .footer-bottom p {
+    margin: 5px 0;
+  }
+  
+  @media (min-width: 768px) {
+    .footer-top {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+  
+    .footer-logo {
+      align-items: flex-start;
+      margin-bottom: 0;
+    }
+  
+    .footer-info {
+      flex-direction: row;
+      justify-content: space-between;
+      width: 70%;
+    }
+  
+    .office {
+      margin-bottom: 0;
+      text-align: left;
+    }
+  
+    .share-price-details {
+      justify-content: flex-start;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .footer-top {
+      padding: 20px 40px;
+    }
+  
+    .footer-logo img {
+      height: 60px;
+    }
+  
+    .share img {
+      height: 40px;
+    }
+  }
+  

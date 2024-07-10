@@ -6,9 +6,11 @@
   }
   
   .home,
-  .services,
-  .products,
-  .sign-up {
+  .event,
+  .events1,
+  .events2,
+  .events3,
+  .tickets {
     display: flex;
     height: 90vh;
     align-items: center;
@@ -16,7 +18,7 @@
     font-size: 3rem;
   }
   
-  .services {
+  .event {
     background-image: url('./assets/img1.jpg');
     background-position: center;
     background-size: cover;
@@ -25,17 +27,26 @@
     font-size: 100px;
   }
   
-  .products {
+  .events1 {
     background-image: url('./assets/img2.jpg');
     background-position: center;
-    background-size: fill;
+    background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
   }
   
-  .sign-up {
-    background-image: url('./assets/img1.jpg');
+  .events2 {
+    background-image: url('./assets/img7.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+
+  .events3 {
+    background-image: url('./assets/img6.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

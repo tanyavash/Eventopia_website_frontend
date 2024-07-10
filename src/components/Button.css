@@ -46,12 +46,10 @@
   font-size: 20px;
 }
 
-.btn-mobile:hover, .btn--large:hover {
+/* .btn-mobile:hover, .btn--large:hover {
   background-color: #fff;
   color: #242424;
   transition: all 0.3s ease-out;
 
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-}
+  
+} */
