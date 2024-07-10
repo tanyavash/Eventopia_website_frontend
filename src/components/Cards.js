@@ -15,7 +15,7 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src={Img1}
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
+              text='Join us for an unforgettable night of music, dance, and fun! You wont want to miss this extraordinary event where memories are made.'
               label='Learn More'
               path='/event'
             />
@@ -24,19 +24,19 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src={Img2}
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+              text='Join us for an unforgettable night of music, dance, and fun! You wont want to miss.'
               label='Learn More'
               path='/events1'
             />
             <CardItem
               src={Img3}
-              text='Experience Football on Top of the Himilayan Mountains'
+              text='Join us for an unforgettable night of music, dance, and fun! You wont want to miss.'
               label='Learn More'
               path='/events2'
             />
             <CardItem
               src={Img4}
-              text='Ride through the Sahara Desert on a guided camel tour'
+              text='Join us for an unforgettable night of music, dance, and fun! You wont want to miss.'
               label='Learn More'
               path='/events3'
             />
