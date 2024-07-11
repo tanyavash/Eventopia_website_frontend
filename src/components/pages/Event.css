@@ -1,0 +1,119 @@
+.event-page {
+    background-image: url('../../assets/img3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 100vh; Full viewport height */
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    /* top: 0; */
+    
+  }
+  
+  
+  .event-content {
+    text-align: center;
+    color: #0ed955;
+  }
+  
+  
+  .event-title {
+    font-size: 100px;
+    margin-bottom: 70px; 
+    margin-top: 55px;
+  }
+  
+  
+  .event-button {
+    padding: 10px 20px;
+    background-color: transparent; 
+    color:  whitesmoke; 
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    font-size: 30px;
+    border: 2px solid var(--primary);
+    transition: all 0.3s ease-out;
+    padding: 10px 22px;
+  }
+  
+  .event-button:hover {
+    background-color: #c5c0c7; 
+    color: black;
+  }  
+
+  .scroll-icon {
+    margin-top: 20px; 
+    font-size: 2rem;
+    color: #e3e3d5;
+    cursor: pointer;
+  }
+  
+  .scroll-icon:hover {
+    color: #bcbcaf; 
+  }
+
+  h2{
+    text-align: center;
+    /* padding: 5rem; */
+  }
+
+
+
+
+  .event-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cards__container {
+    width: 80vw; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 2rem; 
+    overflow: hidden;
+  }
+
+  .cards__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .cards__item {
+    margin: 0 1rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .cards__item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .cards__item__link {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .cards__item__img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .cards__item__info {
+    padding: 20px 30px;
+    color: #e3e3d5;
+  }
+
+  .cards__item__title {
+    font-size: 2rem;
+  }
+
+  .cards__item__text {
+    font-size: 1rem;
+  }
