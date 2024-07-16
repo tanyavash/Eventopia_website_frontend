@@ -58,63 +58,51 @@ export default function Event() {
               </a>
             </div>
 
-            <div>
-               <h3 className='heading'>DAYS TO GO</h3>
-            </div>
-
-            <div>
-               <h3 className='details'>EVENT DETAILS</h3>
-            </div>
-
-            {/* <div className='event-details-boxes'>
-              <div className='details-box'>WHEN</div>
-              <div className='details-box'>WHERE</div>
-              <div className='details-box'>WHEN</div>
-            </div> */}
-
-            <div className='event-details-container'>
-
-            <div className='event-details-box'>
-                <div className='details-title'>When</div>
-                <div className='details-content'>
-                  <p>December 30, 2025</p>
-                  <p>6:00 PM - 10:00 PM ET</p>
-                  <button className='details-button'>ADD TO CALENDAR</button>
-                </div>
-              </div>
-
-              <div className='event-details-box'>
-                <div className='details-title'>Where</div>
-                <div className='details-content'>
-                  <p>The Fess Parker A Doubletree Resort</p>
-                  <p>East Hanna Avenue, IN 46227</p>
-                  <button className='details-button'>GET MAP</button>
-                </div>
-              </div>
-
-              <div className='event-details-box'>
-                <div className='details-title'>Planner</div>
-                <div className='details-content'>
-                  <p>Creative Services</p>
-                  <p>creativeservices@cvent.com</p>
-                  <button className='details-button'>CONTACT US</button>
-                </div>
-              </div>
-
-            </div>
-
-            <div>
-               <h3 className='details'>GRAB YOUR TICKETS</h3>
-            </div>
-
-
           </div>
         </div>
       </div>
 
-      
+      <div className='days-to-go'>
+        <h3 className='heading'>DAYS TO GO</h3>
+      </div>
+
+      <div className='event-details-section'>
+        <h3 className='details-heading'>EVENT DETAILS</h3>
+
+        <div className='event-details-container'>
+          <div className='event-details-box'>
+            <div className='details-title'>When</div>
+            <div className='details-content'>
+              <p>December 30, 2025</p>
+              <p>6:00 PM - 10:00 PM ET</p>
+              <button className='details-button'>ADD TO CALENDAR</button>
+            </div>
+          </div>
+
+          <div className='event-details-box'>
+            <div className='details-title'>Where</div>
+            <div className='details-content'>
+              <p>The Fess Parker A Doubletree Resort</p>
+              <p>East Hanna Avenue, IN 46227</p>
+              <button className='details-button'>GET MAP</button>
+            </div>
+          </div>
+
+          <div className='event-details-box'>
+            <div className='details-title'>Planner</div>
+            <div className='details-content'>
+              <p>Creative Services</p>
+              <p>creativeservices@cvent.com</p>
+              <button className='details-button'>CONTACT US</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className='grab-tickets'>
+        <h3 className='details'>GRAB YOUR TICKETS</h3>
+      </div>
 
     </div>
-    
   )
 }
