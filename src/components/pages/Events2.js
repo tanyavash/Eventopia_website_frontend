@@ -1,9 +1,15 @@
 import React from 'react'
-import '../../App.css';
+import '../pages/Events2.css'
 
 export default function Events2() {
   return (
-    <h1 className='events2'>EVENTS2</h1>
+    <div>
+      <div className='bg2'>
+          <div className='e1content'>
+            <h1 className='titleEvent'>EVENT2</h1>
+          </div>
+      </div>
+    </div>
   )
 }
 

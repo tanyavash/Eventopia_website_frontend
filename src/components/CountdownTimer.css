@@ -12,27 +12,27 @@
   }
   
   .countdown-interval {
-    display: flex; /* Center the text */
-    justify-content: center; /* Center the text */
-    align-items: center; /* Center the text */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
     margin: 0 10px;
-    width: 200px; /* Set equal width and height */
-    height: 200px; /* Set equal width and height */
+    width: 200px; 
+    height: 200px; 
     background-color: transparent;
     border: 1px solid #ddd;
-    border-radius: 50%; /* Make it circular */
+    border-radius: 50%; 
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    font-size: 3rem; /* Adjust font size */
-    color: white; /* Text color */
-    text-align: center; /* Center text horizontally */
+    font-size: 3rem; 
+    color: white; 
+    text-align: center; 
   }
   
   .countdown-label {
     display: block;
-    font-size: 1rem; /* Adjust font size */
+    font-size: 1rem; 
     color: #888;
-    margin-top: 2px; /* Adjust spacing */
+    margin-top: 2px; 
     margin-left: 10px;
-    text-align: center; /* Center text horizontally */
+    text-align: center; 
   }
     

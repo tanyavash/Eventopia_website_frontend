@@ -266,7 +266,20 @@ export default function Event() {
               <option value="4">4</option>
               <option value="5">5</option>
               <option value="6">6</option>
-            </select>
+              </select>
+            </div>
+
+            <div className='tickets-box'>
+              <div className='tickets-heading'>Extra Tickets Required</div>
+              <select className='number-of-tickets-select'>
+              <option value=""></option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              </select>
             </div>
 
           </div>
