@@ -29,7 +29,7 @@
 //           <div className="ecards__wrapper">
 
 //             <div className="ecards__item">
-//               <a href="#" className="ecards__item__link">
+//               <a href="https://google.com" className="ecards__item__link">
 //                 <img src={Img2} alt="Card 1" className="ecards__item__img" />
 //                 <div className="ecards__item__info">
 //                   <h3 className="ecards__item__title">Card 1 Title</h3>
@@ -39,7 +39,7 @@
 //             </div>
 
 //             <div className="ecards__item">
-//               <a href="#" className="ecards__item__link">
+//               <a href="https://google.com" className="ecards__item__link">
 //                 <img src={Img3} alt="Card 2" className="ecards__item__img" />
 //                 <div className="ecards__item__info">
 //                   <h3 className="ecards__item__title">Card 2 Title</h3>
@@ -49,7 +49,7 @@
 //             </div>
 
 //             <div className="ecards__item">
-//               <a href="#" className="ecards__item__link">
+//               <a href="https://google.com" className="ecards__item__link">
 //                 <img src={Img4} alt="Card 3" className="ecards__item__img" />
 //                 <div className="ecards__item__info">
 //                   <h3 className="ecards__item__title">Card 3 Title</h3>
@@ -173,7 +173,7 @@ export default function Event() {
           <div className="ecards__wrapper">
 
             <div className="ecards__item">
-              <a href="#" className="ecards_item_link">
+              <a href="https://google.com" className="ecards_item_link">
                 <img src={Img2} alt="Card 1" className="ecards_item_img" />
                 <div className="ecards_item_info">
                   <h3 className="ecards_item_title">Card 1 Title</h3>
@@ -183,7 +183,7 @@ export default function Event() {
             </div>
 
             <div className="ecards__item">
-              <a href="#" className="ecards_item_link">
+              <a href="https://google.com" className="ecards_item_link">
                 <img src={Img3} alt="Card 2" className="ecards_item_img" />
                 <div className="ecards_item_info">
                   <h3 className="ecards_item_title">Card 2 Title</h3>
@@ -193,7 +193,7 @@ export default function Event() {
             </div>
 
             <div className="ecards__item">
-              <a href="#" className="ecards_item_link">
+              <a href="https://google.com" className="ecards_item_link">
                 <img src={Img4} alt="Card 3" className="ecards_item_img" />
                 <div className="ecards_item_info">
                   <h3 className="ecards_item_title">Card 3 Title</h3>

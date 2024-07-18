@@ -39,10 +39,10 @@ function Footer() {
       <div className="footer-middle">
         <p>Follow Us</p>
         <div className="social-icons">
-          <a href="#"><i className="fab fa-facebook-f"></i></a>
-          <a href="#"><i className="fab fa-twitter"></i></a>
-          <a href="#"><i className="fab fa-youtube"></i></a>
-          <a href="#"><i className="fab fa-linkedin-in"></i></a>
+          <a href="https://google.com"><i className="fab fa-facebook-f"></i></a>
+          <a href="https://google.com"><i className="fab fa-twitter"></i></a>
+          <a href="https://google.com"><i className="fab fa-youtube"></i></a>
+          <a href="https://google.com"><i className="fab fa-linkedin-in"></i></a>
         </div>
       </div>
       <div className="footer-bottom">
