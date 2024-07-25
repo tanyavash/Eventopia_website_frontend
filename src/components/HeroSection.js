@@ -15,7 +15,7 @@ function HeroSection() {
             className= 'btns'
             buttonStyle='btn--outline'
             buttonSize= 'btn--large'
-        >Get Started</Button>
+        >Live Events</Button>
       </div>
     </div>
   )

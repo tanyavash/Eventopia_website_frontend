@@ -1,0 +1,26 @@
+.admin-landing-page {
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .admin-landing-page h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .create-event-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .create-event-button:hover {
+    background-color: #45a049;
+  }
+  
