@@ -1,133 +1,129 @@
 /* AdminPage.css */
 .admin-page {
-    padding: 20px;
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: black;
-    top: 0;
-    /* position: relative; */
-    /* height: 100vh; */
-  }
-  .admin-page h1 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .ceheading {
-    margin-top: 20px;
-    color: white;
-    font-size: xx-large;
-    /* top: 2; */
-  }
-  
-  .content-box {
-    /* border: 1px solid #ccc; */
-    padding: 20px;
-    border-radius: 4px;
-    background-color: rgb(52, 52, 52);
-    margin-bottom: 20px;
-    width: 650px;
-  }
-  
-  .content-box label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight:lighter;
-    color: white;
-  }
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  top: 0;
+}
 
-   .content-box label.date-label {
-    /* display: flex; */
-    align-items: center;
-    margin-bottom: 10px;
-  }
-  
-  .content-box input[type="text"],
-  .content-box input[type="date"],
-  .content-box textarea,
-  .content-box input[type="file"] {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-   */
-  .content-box input,
-  .content-box textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  } 
-  
-  .content-box button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    margin: 10px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .content-box button:hover {
-    background-color: #45a049;
-  }
-  
-  .admin-page ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .admin-page li {
-    background-color: #f9f9f9;
-    margin: 10px 0;
-    padding: 20px;
-    border-radius: 4px;
-    border: 1px solid #ddd;
-  }
-  
-  .admin-page li h3 {
-    margin: 0 0 10px 0;
-  }
-  
-  .admin-page li p {
-    margin: 5px 0;
-  }
-  
-  .admin-page li button {
-    background-color: #f44336;
-  }
-  
-  .admin-page li button:hover {
-    background-color: #e53935;
-  }
+.admin-page h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
 
+.ceheading {
+  margin-top: 20px;
+  color: white;
+  font-size: xx-large;
+}
 
-  .modal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #fff;
-    padding: 20px;
-    border-radius: 4px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-  }
-  
-  .overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 999;
-  }
+.content-box {
+  padding: 20px;
+  border-radius: 4px;
+  background-color: rgb(52, 52, 52);
+  margin-bottom: 20px;
+  width: 650px;
+}
+
+.content-box label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: lighter;
+  color: white;
+}
+
+.content-box label.date-label {
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.content-box input[type="text"],
+.content-box input[type="file"],
+.content-box textarea,
+.react-datepicker-wrapper,
+.react-datepicker__input-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.content-box input,
+.content-box textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.content-box button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.content-box button:hover {
+  background-color: #45a049;
+}
+
+.admin-page ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.admin-page li {
+  background-color: #f9f9f9;
+  margin: 10px 0;
+  padding: 20px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.admin-page li h3 {
+  margin: 0 0 10px 0;
+}
+
+.admin-page li p {
+  margin: 5px 0;
+}
+
+.admin-page li button {
+  background-color: #f44336;
+}
+
+.admin-page li button:hover {
+  background-color: #e53935;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
